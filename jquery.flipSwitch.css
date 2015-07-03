@@ -1,0 +1,51 @@
+.ss-wrap{
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.ss-size-test{float:left;}
+.slide-select{
+    position: relative;
+    overflow: hidden;
+    border: 1px solid grey;
+    height:32px;
+    border-radius: inherit;
+}
+.ss-option{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+    top: 0px;
+    line-height: 2;
+    min-height: 100%;
+    white-space: nowrap;
+    cursor: pointer;
+    text-indent: 25px;
+}
+.ss-handWrap{margin: 0px 16px; position: relative; z-index: 1; border-radius: inherit;}
+.ss-handle{
+    left:0;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    width: 28px;
+    height: 28px;
+    margin: 1px 0px 0px -15px;
+    outline: 0px none;
+    padding: 0px;
+    font-size: 0.9em;
+    line-height: 30px;
+    background: none repeat scroll 0% 0% #FFF;
+    border-radius: inherit;
+}
+.ss-disabled{background-color: #F00; color: white;}
+.ss-enabled{background-color: #ADFF2F; color: black;}
+.ss-clear{clear: both;}
